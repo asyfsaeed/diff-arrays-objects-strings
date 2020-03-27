@@ -44,7 +44,6 @@ console.log(result);
 //     { id: 1, name: 'a' }
 //   ]
 // }
-```
 
 let result = diff(['5d416a0e063cbf4ac130b3b4',
                       '5d416a0e063cbf4ac130b3b5',
@@ -74,6 +73,9 @@ console.log(result);
      '5d416a0e063cbf4ac130b3bb',
      '5d416a0e063cbf4ac130b3bc',
      '5d416a0e063cbf4ac130b3bd' ] }
+```
+
+
 
 
 ## API
