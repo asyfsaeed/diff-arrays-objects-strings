@@ -1,0 +1,57 @@
+{
+  "name": "diff-arrays-objects-strings",
+  "description": "Compare two arrays of objects, strings. finding added, removed, updated and identical objects. Details the differences between updated objects.",
+  "homepage": "https://github.com/asyfsaeed/diff-arrays-objects-strings",
+  "version": "1.0.0",
+  "main": "lib",
+  "author": "Asif Saeed <asyfsaeed@gmail.com> (https://github.com/asyfsaeed)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asyfsaeed/diff-arrays-objects-strings.git"
+  },
+  "bugs": {
+    "url": "https://github.com/asyfsaeed/diff-arrays-objects-strings/issues"
+  },
+  "keywords": [
+    "added",
+    "array",
+    "compare",
+    "deep",
+    "delta",
+    "diff",
+    "difference",
+    "object",
+    "removed",
+    "updated",
+    "objects",
+    "strings"
+  ],
+  "dependencies": {
+    "deep-diff": "^1.0.1",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "expect.js": "latest",
+    "mocha": "latest",
+    "nyc": "latest",
+    "should": "latest"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "lint": "eslint ./lib",
+    "pretest": "npm run lint",
+    "test": "nyc --reporter=html --reporter=text mocha"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
+}
